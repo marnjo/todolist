@@ -1,0 +1,86 @@
+body{
+  background-image: url('/assets/blue-sky-clear-sky-cold-fog-346529.jpg');
+  background-size: cover;
+  color:white;
+  box-sizing: content-box;
+}
+
+/*This is the container everything*/
+.todolist{
+  max-width: 800px;
+  margin: auto;
+}
+
+/*This is the h1*/
+.stuff{
+  text-align: center;
+  font-size: 5rem;
+}
+
+/*This is the container that holds the todo items */
+.todos{
+  padding: 20px;
+}
+
+/*This is the actual to do item */
+.todo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 26px;
+  height: 60px;
+  box-shadow: 10px 10px 10px 10px rgba(10, 10, 10, 0.5);
+}
+
+/*This styles the buttons*/
+button{
+  height: 47px;
+  width: 100px;
+  background-color: #f4f169;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px 1px rgba(10, 10, 10, 0.5);
+  margin-left: 10px;
+}
+button:hover{
+  background-color: #faf607;
+  box-shadow: 10px 10px 10px 5px rgba(19, 1, 1, 0.69);
+}
+
+/* hover style just for information */
+label:hover{
+  cursor: pointer;
+}
+.innerDiv:hover:before {
+  border: 2px solid #4778d9!important;
+}
+
+.innerP{
+  color: red;
+  cursor: pointer;
+}
+
+.addInput{
+  height: 40px;
+  background-color: rgba(10, 10, 10, 0.5);
+  padding: 5px;
+  text-align: center;
+}
+
+.addInput:focus{
+  background-color: rgba(10, 10, 10, 1);
+  color: #f4f169;
+}
+
+.functionality{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
