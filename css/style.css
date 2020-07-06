@@ -3,6 +3,7 @@ body{
   background-size: cover;
   color:white;
   box-sizing: content-box;
+  background-repeat: no-repeat;
 }
 
 /*This is the container everything*/
@@ -83,4 +84,23 @@ label:hover{
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+.clear{
+  font-size: 1.2rem;
+  margin-left: 30px;
+  display: inline-block;
+  height: 50px;
+  padding: 2px;
+  border-radius: 20px;
+  padding: 0px 10px 10px 10px;
+  cursor: pointer;
+}
+.clear:hover{
+  box-shadow: 10px 10px 10px 5px rgba(19, 1, 1, 0.69);
+  background-color: khaki;
 }
